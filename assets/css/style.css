@@ -53,7 +53,9 @@ img {
 }
 
 .card__container {
-    display: grid;
+    /* display: grid; */
+    display: flex;
+    justify-content: center;
     row-gap: 3.5rem;
 }
 
@@ -73,7 +75,7 @@ img {
     left: 0;
     right: 0;
     margin-inline: auto;
-    /* opacity: 0; */
+    opacity: 0;
     transition: opacity 1s 1s;
 }
 
