@@ -1,7 +1,7 @@
-/* Google Fonts */
+/* ================= GOOGLE FONTS ================= */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Variable CSS */
+/* ================= VARIABLE CSS ================= */
 :root {
     /* Colors */
     --first-color: hsl(82, 60%, 28%);
@@ -9,7 +9,7 @@
     --text-color: hsl(0, 0%, 35%);
     --body-color: hsl(0, 0%, 95%);
     --container-color: hsl(0, 0%, 100%);
-
+    
     /* Font and Typography */
     --body-font: "Poppins", sans-serif;
     --h2-font-size: 1.25rem;
@@ -24,7 +24,7 @@
     }
 }
 
-/* Base */
+/* ================= BASE ================= */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -43,7 +43,7 @@ img {
     height: auto;
 }
 
-/* CARD */
+/* ================= CARD ================= */
 
 .container {
     display: grid;
