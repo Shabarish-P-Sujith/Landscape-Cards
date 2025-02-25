@@ -64,6 +64,14 @@ img {
     overflow: hidden;
 }
 
+.card__img {
+    width: 400px;  
+    height: 400px;  
+    max-width: 100%; /* Prevent overflow */
+    display: block; /* Remove extra space */
+    border-radius: 50px; 
+}
+
 .card__data {
     width: 200px;
     background-color: var(--container-color);
