@@ -171,3 +171,42 @@ img {
         overflow: hidden;
     }
 }
+
+/* ================= BREAKPOINTS ================= */
+
+/* For Small devices */
+@media screen and (max-width: 480px) {
+    .container {
+        margin-inline: 1rem;
+    }
+    .card__data {
+        width: 250px;
+        padding: 1rem;
+    }
+}
+
+/* For Medium devices */
+@media screen and (min-width: 768px) {
+    .card__container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+}
+
+/* For Large devices */
+@media screen and (max-width: 1024px) {
+    .container {
+        height: 100vh;
+    }
+    .card__container {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.5rem;
+    }
+    .card__img {
+        width: 348px;
+    }
+    .card__data {
+        width: 316px;
+        padding-inline: 2.5rem;
+    }
+}
